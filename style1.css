@@ -1,0 +1,81 @@
+body {
+    font-family: "Nunito", Arial, sans-serif;
+    height: 100%;
+}
+
+#nav {
+    color: white;
+    background-color: rgb(211, 173, 49);
+    height: 30px;
+    font-size: 13px;
+    display: flex;
+    
+}
+
+#nav #leftText {
+    
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 6px 1100px 0px 20px;
+}
+#nav a {
+    
+    color: white;
+    justify-content: flex-end;
+    align-content: flex-start;
+    margin: 6px 10px 0px 0px;
+    text-decoration: none;
+    
+    
+    
+}
+
+
+
+
+
+#flex-container {
+    
+    margin: 0; padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+ul li {
+    height: 150px;
+    padding-top: 45px;
+    color: #fff;
+ 
+
+
+
+}
+
+.card {
+    border: rgb(211, 173, 49) solid 1px;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 40px;
+    text-align: left;
+    
+
+}
+.moreInfo {
+    text-align: center;
+}
+
+input[type=button]{
+    background-color: rgb(211, 173, 49);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    color: white;
+    
+ }
+.moreinfo .button{
+    text-align: center;
+}
+ 
